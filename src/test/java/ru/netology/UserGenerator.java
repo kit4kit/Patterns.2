@@ -20,7 +20,7 @@ public class UserGenerator {
             .log(LogDetail.ALL)
             .build();
 
-    @BeforeAll
+
     public static void makeRequest(Registration registration) {
         // сам запрос
         given() // "дано"

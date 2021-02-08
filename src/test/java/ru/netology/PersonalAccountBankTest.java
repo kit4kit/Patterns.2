@@ -15,7 +15,7 @@ import static ru.netology.UserGenerator.*;
 
 public class PersonalAccountBankTest {
     @BeforeEach
-    void Setup() {
+    void setup() {
         open("http://localhost:9999");
     }
 
