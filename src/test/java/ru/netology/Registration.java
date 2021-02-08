@@ -10,6 +10,7 @@ public class Registration {
         this.password = password;
         this.status = status;
     }
+
     public String getLogin() {
         return login;
     }
